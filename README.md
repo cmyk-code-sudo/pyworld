@@ -26,7 +26,7 @@ game = Game()
 chat = ChatBot(language='zh')
 ui = UI()
 
-response = chat.talk("你好")
+response = chat.talk("Hi")
 print(response)
 
 game.run()
